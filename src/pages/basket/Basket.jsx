@@ -1,6 +1,6 @@
 import Empty from "../../components/empty/Empty";
 import { useSelector } from "react-redux";
-import CardProduct from "../../Components/CardProduct/CardProduct";
+import CardProduct from "../../components/cardProduct/CardProduct";
 
 function Cart() {
   const cart = useSelector((state) => state.cart.value);

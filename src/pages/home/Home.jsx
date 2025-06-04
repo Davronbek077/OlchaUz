@@ -4,13 +4,13 @@ import Category from '../../components/category/Category'
 import Catalog from '../../components/catalog/Catalog'
 import Product from '../../components/product/Product'
 
-const Home = ({data}) => {
+const Home = ({Data}) => {
   return (
     <div>
       <Banner/>
       <Category/>
       <Catalog/>
-      <Product data={data} />
+      <Product data={Data} />
     </div>
   )
 }

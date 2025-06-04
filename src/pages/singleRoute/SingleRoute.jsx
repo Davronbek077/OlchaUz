@@ -1,5 +1,5 @@
 import React from 'react'
-import { data } from '../../mock/datamock'
+import { Data } from '../../mock/datamock'
 import { useParams } from 'react-router-dom'
 import { IoMdCheckmark } from "react-icons/io";
 import { BsBagCheck } from "react-icons/bs";
