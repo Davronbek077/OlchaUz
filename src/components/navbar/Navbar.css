@@ -1,0 +1,507 @@
+.navbar-middle-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", serif;
+    background-color: rgb(224, 37, 37);
+    padding: 13px;
+    color: white;
+    font-family: "Raleway", serif;
+
+}
+
+.navbar-middle-text, .navbar-middle-number, .navbar-middle-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-middle-text h2{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar-middle-text{
+    gap: 15px;
+}
+
+.text-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.navbar-middle-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar-middle-text #color{
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(224, 37, 37);
+    padding: 5px 12px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.navbar-middle-text #color:hover{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.navbar-middle-text #border{
+    border: 2px solid white;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.navbar-middle-text #border:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(224, 37, 37);
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.navbar-middle-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navbar-middle-number #number{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+}
+
+.navbar-middle-number #text{
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.navbar-middle-number #text:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(224, 37, 37);
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+
+.navbar-middle-lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.navbar-middle-lang h3{
+    font-size: 16px;
+}
+
+.navbar-middle-lang #uz, .navbar-middle-lang #ru{
+    font-weight: 400;
+    color: #ffffffa3;
+}
+
+.navbar-bottom-img img{
+    min-width: 95px;
+    height: 30px;
+}
+
+.navbar-bottom-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: "Raleway", serif;
+    margin-left: 85px;
+}
+
+.navbar-bottom-catalog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    border: 2px solid black;
+    padding: 8px 24px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+
+}
+
+.navbar-bottom-catalog h2{
+    font-size: 20px;
+}
+
+.navbar-bottom-catalog #menu{
+    height: 25px;
+    min-width: 25px;
+}
+
+.navbar-bottom-catalog h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-bottom-collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    gap: 28px;
+}
+
+.navbar-bottom{
+    margin-top: 32px;
+}
+
+.navbar-bottom-input{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar-bottom-collection .collection{
+    text-align: center;
+}
+
+
+.navbar-bottom-collection .collection p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-bottom-collection .collection #icon{
+    font-size: 25px;
+}
+
+.navbar-bottom-input input{
+    width: 100%;
+    height: 47px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding-left: 25px;
+    font-size: 16px;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+    
+}
+
+.navbar-bottom-input input:focus{
+    outline: none;
+}
+
+.input-icon{
+    position: absolute;
+    border: none;
+    background-color: rgb(224, 37, 37);
+    border-radius: 10px;
+    padding: 4px 25px;
+    color: white;
+    font-size: 24px;
+    margin-right: 3px;
+}
+
+.input-icon #search{
+    margin-top: 4px;
+}
+
+.navbar-top-wrap{
+    display: none;
+
+}
+
+.olcha-logo-img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.olcha-logo-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.olcha-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.olcha-logo-text  h3{
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+.olcha-logo-text p{
+    font-size: 11px;
+}
+
+.olcha-download-btn{
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.olcha-download-btn button{
+    color: white;
+    border: none;
+    background-color: rgb(193, 39, 39);
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+}
+
+.navbar-bottom-collection #home{
+    display: none;
+}
+
+.navbar-middle-wrap{
+    display: none;
+}
+
+.call-icon #call-icon{
+    color: black;
+    font-size: 22px;
+}
+
+.navbar-middle-img img{
+    min-width: 95px;
+    height: 30px;
+}
+
+.call-icon{
+    margin-left: 20px;
+}
+
+.middle-lang{
+    color: black;
+    margin-right: 14px;
+}
+
+.middle-lang h3{
+    font-size: 16px;
+}
+
+.navbar-bottom-collection .likes{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-bottom-collection #like{
+    font-family: "Roboto", serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 1px;
+}
+
+.navbar-bottom-collection .like-items{
+    width: 17px;
+    height: 17px;
+    background-color: rgb(215, 53, 53);
+    border-radius: 50%;
+}
+
+.navbar-bottom-collection .cards{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-bottom-collection .cards p{
+    font-family: "Roboto", serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 1px;
+
+}
+
+.navbar-bottom-collection .cards-length{
+    width: 17px;
+    height: 17px;
+    background-color: rgb(215, 53, 53);
+    border-radius: 50%;
+}
+
+.navbar-bottom-collection .collection a{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1235px) {
+    .navbar-bottom-wrapper{
+        margin-left: 30px;
+    }
+
+    .navbar-bottom-collection{
+        margin-right: 22px;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+    .navbar-middle-number #text{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-top-img{
+        display: none;
+    }
+
+    .navbar-top-wrap{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Raleway", serif;
+    }
+
+    .navbar-middle-text, .navbar-middle-number{
+        display: none;
+    }
+
+    .navbar-middle-lang{
+        display: none;
+    }
+
+    .navbar-middle-wrapper{
+        background: none;
+    }
+
+    .navbar-middle-wrap{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-bottom-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .catalog-text{
+        display: none;
+    }
+
+    .navbar-bottom-catalog #menu{
+        min-width: 35px;
+    }
+
+    .navbar-bottom-catalog{
+        padding: 3px;
+        height: 40px;
+    }
+
+    .input-icon{
+        background: none;
+        padding: 0;
+        color: rgb(156, 156, 156);
+        font-size: 19px;
+        margin-left: 13px;
+    }
+
+    .navbar-bottom-collection{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 48px;
+        border-top: 1px solid gray;
+        background-color: white;
+        margin: 0;
+    }
+
+    .navbar-bottom-collection #hides{
+        display: none;
+    }
+
+    .navbar-bottom-collection #home{
+        display: block;
+    }
+
+    .navbar-bottom-wrapper{
+        gap: 10px;
+    }
+
+    .navbar-bottom-input input{
+        height: 40px;
+        padding-left: 45px;
+        font-size: 15px;
+        
+    }
+
+    .navbar-bottom-input{
+        max-width: 91%;
+        min-width: 91%;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navbar-bottom-wrapper{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .navbar-bottom-input{
+        max-width: 88%;
+        min-width: 88%;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .navbar-bottom-input{
+        max-width: 86%;
+        min-width: 86%;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .navbar-bottom-input{
+        max-width: 83%;
+        min-width: 83%;
+        justify-content: start;
+    }
+
+    .navbar-bottom-collection .collection p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .navbar-bottom-input{
+        max-width: 80%;
+        min-width: 80%;
+        justify-content: start;
+    }
+}

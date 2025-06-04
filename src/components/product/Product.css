@@ -1,0 +1,485 @@
+.product-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.product-card img{
+    width: 265px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.product-card{
+    width: 265px;
+    margin-bottom: 35px;
+}
+
+.product-card p{
+    font-family: "Roboto", serif;
+}
+
+.product-card h3{
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    padding-top: 11px;
+}
+
+.product-card-price{
+    margin-top: 33px;
+}
+
+.product-card-price #price{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.product-card-price #month{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 221, 0);
+    margin-top: 10px;
+}
+
+.product-payment-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 8px;
+}
+
+.product-basket #basket{
+    font-size: 22px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.product-basket{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 3px 7px;
+}
+
+.product-payment button{
+    color: rgb(211, 55, 55);
+    border: 2px solid rgb(211, 55, 55);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    padding: 9px 38px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.car-products-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 13px;
+}
+
+.car-product img{
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.car-wrapper #car-hide1{
+    display: none;
+}
+
+.car-product{
+    width: 220px;
+    margin-bottom: 35px;
+}
+
+.car-product p{
+    font-family: "Roboto", serif;
+}
+
+.car-product h3{
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    padding-top: 11px;
+}
+
+.car-product-price{
+    margin-top: 33px;
+}
+
+.car-product-price #price{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(226, 33, 33);
+    padding-bottom: 4px;
+}
+
+.car-product #month{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 221, 0);
+    margin-top: 10px;
+}
+
+.car-product del{
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    color: rgb(163, 163, 163);
+}
+
+.car-payment-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 8px;
+}
+
+.car-product-basket #car-basket{
+    font-size: 22px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.car-product-basket{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 3px 7px;
+}
+
+.car-product-payment button{
+    color: rgb(211, 55, 55);
+    border: 2px solid rgb(211, 55, 55);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    padding: 9px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.car-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car-product-img img{
+    width: 210px;
+    height: 538px;
+    border-radius: 11px;
+
+}
+
+.product-card-img{
+    position: relative;
+}
+
+.empty-heart{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    font-size: 28px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
+    color: gray;
+  }
+
+.filled-heart{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    font-size: 23px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 8px;
+    color: rgb(203, 46, 46);
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 1160px) {
+    .product-card, .product-card img{
+        width: 240px;
+    }
+
+    .product-payment button{
+        padding: 9px 28px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .product-card, .product-card img{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .product-card, .product-card img{
+        width: 210px;
+    }
+
+    .product-payment button{
+        padding: 9px 15px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .product-card, .product-card img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .product-card, .product-card img{
+        width: 240px;
+    }
+
+    .product-card:last-child{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 797px) {
+    .product-card, .product-card img{
+        width: 225px;
+    }
+
+}
+
+@media screen and (max-width: 797px) {
+    .product-card, .product-card img{
+        width: 218px;
+    }
+
+}
+
+@media screen and (max-width: 737px) {
+    .product-card, .product-card img{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 675px) {
+    .product-card{
+        width: calc(50% - 35px);
+    }
+
+    .product-card img{
+        width: 100%;
+    }
+
+    .empty-heart{
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        right: 5px;
+        font-size: 26px;
+        padding-top: 3px;
+    }
+
+    .filled-heart{
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        right: 5px;
+        font-size: 21px;
+        padding-top: 6px;
+    }
+
+}
+
+@media screen and (max-width: 545px) {
+    .product-card h3{
+        font-size: 14px;
+    }
+
+    .product-card #price{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 454px) {
+    .product-payment button{
+        padding: 8px 8px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .product-basket #basket{
+        font-size: 18px;
+    }
+
+    .product-basket{
+        padding: 2px 4px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .product-payment button{
+        font-size: 12px;
+        padding: 8px 0px;
+    }
+
+    .product-card-price #month{
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 1234px) {
+    .car-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .car-wrapper #car-hide1{
+        display: block;
+    }
+
+    .car-wrapper #car-hide2{
+        display: none;
+    }
+    .car-product:last-child{
+        display: none;
+    }
+
+    .car-product, .car-product img{
+        width: 260px;
+    }
+
+    .car-product-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    .car-product, .car-product img{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 1063px) {
+    .car-product, .car-product img{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .car-product, .car-product img{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .car-product, .car-product img{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .car-product, .car-product img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .car-product, .car-product img{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .car-product, .car-product img{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 797px) {
+    .car-product{
+        width: calc(50% - 35px);
+    }
+
+    .car-product img{
+        width: 100%;
+    }
+
+    .car-products-wrap{
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .car-product-payment button{
+        padding: 9px 12px;
+        font-size: 14px;
+    }
+
+    .car-product h3{
+        font-size: 14px;
+    }
+
+    .car-product #price{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .car-product-payment button{
+        padding: 8px 8px;
+        white-space: nowrap;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .car-product-basket #car-basket{
+        font-size: 18px;
+    }
+
+    .car-product-basket{
+        padding: 2px 4px;
+    }
+
+    .car-products-wrap{
+        gap: 18px;
+    }
+
+    .car-product-price #month{
+        font-size: 12px;
+    }
+
+    .car-product-payment button{
+        font-size: 12px;
+        padding: 8px 3px;
+    }
+
+    .car-product-price del{
+        font-size: 13px;
+    }
+
+    
+}

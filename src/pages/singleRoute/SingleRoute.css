@@ -1,0 +1,251 @@
+.single-route{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Roboto", serif;
+    margin-top: 25px;
+}
+
+.single-img{
+    width: 400px;
+}
+
+.single-img img{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.single-img h2{
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    font-family: "Inter", serif;
+}
+
+.paragraph-wrap p{
+    padding: 8px 13px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.text-paragraph p{
+    display: inline-block;
+    padding: 8px 13px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 11px;
+
+}
+
+.text-paragraph{
+    width: 330px;
+}
+
+.paragraph-wrap{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+#text{
+    border: none;
+    color: rgb(127, 80, 246);
+    padding: 0;
+    padding-top: 5px;
+    font-size: 13px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+
+.single-form{
+    width: 380px;
+    height: auto;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 15px;
+    padding: 24px 25px;
+    margin-top: 20px;
+}
+
+.single-form h2{
+    padding-bottom: 5px;
+    font-family: "Roboto", serif;
+}
+
+.total-wrap del{
+    font-size: 13px;
+    color: gray;
+}
+
+.form-purchase{
+    margin-top: 14px;
+}
+
+.form-purchase button{
+    font-family: "Roboto", serif;
+    cursor: pointer;
+}
+
+.form-purchase-click{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.form-purchase #purchase{
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 13px;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 16px;
+    
+}
+
+.form-purchase-click #heart{
+    border: none;
+    background-color: rgb(233, 233, 233);
+    padding: 3px 7px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.form-purchase-click #basket{
+    width: 100%;
+    border: none;
+    background-color: rgba(10, 200, 42, 0.916);
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 9px;
+    font-family: "Inter", serif;
+
+}
+
+.form-purchase-info p{
+    font-size: 12px;
+    color: rgb(46, 46, 46);
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+}
+
+.form-purchase-info{
+    margin-top: 15px;
+}
+
+.check, .bagCheck{
+    display: inline-block;
+}
+
+#check, #bagCheck{
+    font-size: 16px;
+}
+
+.form-check .check{
+    color: rgb(9, 109, 9);
+    background-color: rgb(232, 242, 232);
+    border-radius: 5px;
+    padding-top: 8px;
+    padding: 0px 5px;
+}
+
+#check{
+    margin-top: 4px;
+}
+
+.form-bagCheck .bagCheck{
+    background-color: rgb(255, 240, 190);
+    border-radius: 5px;
+    padding-top: 8px;
+    padding: 2px 6px;
+
+}
+
+#bagCheck{
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.form-bagCheck, .form-check{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.form-check{
+    margin-bottom: 5px;
+}
+
+.delivery-info{
+    margin-top: 15px;
+}
+
+.delivery-info #title{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(159, 159, 159);
+}
+
+.delivery-title{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.delivery-title #truck{
+    font-size: 25px;
+}
+
+.delivery-title p{
+    font-weight: 700;
+}
+
+.delivery-text{
+    margin-left: 35px;
+    font-family: "Inter", serif;
+    margin-top: 3px;
+
+}
+
+.delivery-text p{
+    font-family: "Inter", serif;
+}
+
+@media screen and (max-width:860px) {
+    .single-route{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .single-form{
+        width: 100%;
+    }
+
+    .single-route{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .single-img{
+        width: 400px;
+        height: 360px;
+        margin-bottom: 30px;
+    }
+
+    .single-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
