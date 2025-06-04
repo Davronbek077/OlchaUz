@@ -7,7 +7,7 @@ import Login from './pages/login/Login.jsx'
 import Likes from './pages/likes/Likes.jsx'
 import Basket from './pages/basket/Basket.jsx'
 import SingleRoute from './pages/singleRoute/SingleRoute.jsx'
-import { data } from './mock/datamock.js'
+import { Data } from './mock/datamock.js'
 import Footer from './components/footer/Footer.jsx'
 
 
@@ -19,7 +19,7 @@ function App() {
       <NavbarMiddle/>
       <NavbarBottom/>
       <Routes>
-        <Route path='/' element={<Home data={data} />} />
+        <Route path='/' element={<Home data={Data} />} />
         <Route path='/login' element={<Login/>} />
         <Route path='/likes' element={<Likes/>} />
         <Route path='/basket' element={<Basket/>} />
