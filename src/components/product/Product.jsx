@@ -8,11 +8,10 @@ import { CiHeart } from "react-icons/ci";
 import { addToWishies, removeFromWishies } from '../../context/likeSlice'
 import { incCart } from '../../context/cartSlice'
 
-const Product = ({data}) => {
+const Product = ({ data }) => {
   const dispatch = useDispatch()
   const likes = useSelector((state) => state.likes.value)
   return (
-
     <div className='product'>
       <div className="product-wrap">
         {data.map((item) => {

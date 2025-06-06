@@ -3,8 +3,9 @@ import Banner from '../../components/banner/Banner'
 import Category from '../../components/category/Category'
 import Catalog from '../../components/catalog/Catalog'
 import Product from '../../components/product/Product'
+import { Data } from '../../mock/datamock'
 
-const Home = ({Data}) => {
+const Home = () => {
   return (
     <div>
       <Banner/>

@@ -9,12 +9,14 @@ import Basket from './pages/basket/Basket.jsx'
 import SingleRoute from './pages/singleRoute/SingleRoute.jsx'
 import { Data } from './mock/datamock.js'
 import Footer from './components/footer/Footer.jsx'
+import ScrollToTop from './components/scrollTop/ScrollToTop.jsx'
 
 
 function App() {
 
   return (
     <>
+      <ScrollToTop/>
       <NavbarTop/>
       <NavbarMiddle/>
       <NavbarBottom/>
